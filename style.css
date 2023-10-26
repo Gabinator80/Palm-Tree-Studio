@@ -24,12 +24,11 @@
 }
 
 .nav-1 img {
-	align-items: left;
+	align-items: right;
 	height: 80px;
 	width: 80px;
 	margin-top: -200px;
-	margin-left: 20px;
-
+	margin-left: 1430px;
 }
 
 /** {
@@ -45,13 +44,13 @@
 	margin-left: 860px;
 	font-family: 'Gabarito', cursive;
 	animation: SLide-up ease-in-out 500ms;
-	transition: ease-in-out 500ms ;
-	cursor: pointer;
+	transition: ease-in-out 500ms;
 }
 
 /*#title-1:hover {
 	scale: 2;
 }*/
+
 
 #img-1 {
 	align-items: center;
@@ -212,10 +211,10 @@ a:link {
 
 }
 
-.slogan h1 {
+.slogan h3{
 	margin-top: 200px;
-	font-size: 100px;
-	margin-left: 450px;
+	font-size: 30px;
+	margin-left: 700px;
 	font-family: 'Quicksand', sans-serif;
 }
 
@@ -228,6 +227,38 @@ a:link {
 	visibility: hidden;
 	font-size: 30px;
 }
+
+a {
+	color: white;
+
+}
+
+
+#a_1 {
+	margin-left: 20px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#a_1:hover {
+	text-decoration: underline;
+}
+
+#h3_1 {
+	color: white;
+	margin-top: -44px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#h3_1::after {
+	content: 'Bientôt disponible';
+	margin-left: 20px;
+	font-size: 12px;
+}
+
+
+
 
 
 
@@ -283,7 +314,8 @@ a:link {
 
   #title-1 {
     margin-left: 50px;
-    text-align: left;
+    text-align: Left;
+	margin-left: 680px;
   }
 
   #Version {
@@ -318,4 +350,3 @@ a:link {
   	margin-top: 40px;
   }
 }
-

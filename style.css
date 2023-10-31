@@ -28,7 +28,7 @@
 	height: 80px;
 	width: 80px;
 	margin-top: -200px;
-	margin-left: 1430px;
+	margin-left: 1820px;
 }
 
 /** {
@@ -41,7 +41,7 @@
 
 
 #title-1 {
-	margin-left: 860px;
+	margin-left: 1140px;
 	font-family: 'Gabarito', cursive;
 	animation: SLide-up ease-in-out 500ms;
 	transition: ease-in-out 500ms;

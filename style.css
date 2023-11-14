@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Borel&family=Climate+Crisis&family=Comfortaa:wght@700&family=Croissant+One&family=Gabarito:wght@900&family=Karla:wght@300&family=Mooli&family=Nunito:ital,wght@1,1000&family=Open+Sans:wght@300&family=Phudu:wght@500&family=Raleway:wght@600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Borel&family=Climate+Crisis&family=Comfortaa:wght@700&family=Croissant+One&family=Gabarito:wght@900&family=Karla:wght@300&family=Mooli&family=Nunito:ital,wght@1,1000&family=Open+Sans:wght@300&family=Phudu:wght@500&family=Raleway:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Climate+Crisis&family=Comfortaa:wght@700&family=Croissant+One&family=Gabarito:wght@900&family=Karla:wght@300&family=Mooli&family=Nunito:ital,wght@1,1000&family=Open+Sans:wght@300&family=Phudu:wght@500&family=Raleway:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Climate+Crisis&family=Comfortaa:wght@700&family=Croissant+One&family=Gabarito:wght@900&family=Karla:wght@300&family=Mooli&family=Nunito:ital,wght@1,1000&family=Open+Sans:wght@300&family=Phudu:wght@500&family=Raleway:wght@600&family=Roboto:ital,wght@1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Climate+Crisis&family=Comfortaa:wght@700&family=Croissant+One&family=Gabarito:wght@900&family=Karla:wght@300&family=Mooli&family=Nunito:ital,wght@1,1000&family=Open+Sans:wght@300&family=Phudu:wght@500&family=Quicksand:wght@700&family=Raleway:wght@600&family=Roboto:ital,wght@1,900&display=swap');
@@ -15,8 +15,11 @@
 	background-color: black;
 	color: white;
 	z-index: 2;
+	animation: Op 500ms ease-in-out;
+
 
 }
+
 
 .nav-1 h1 {
 	scale: 2;
@@ -31,9 +34,9 @@
 	margin-left: 1820px;
 }
 
-/** {
+* {
 
-}*/
+}
 
 * {
 	user-select: none;
@@ -45,11 +48,12 @@
 	font-family: 'Gabarito', cursive;
 	animation: SLide-up ease-in-out 500ms;
 	transition: ease-in-out 500ms;
-}
 
+}
+*/
 /*#title-1:hover {
 	scale: 2;
-}*/
+}
 
 
 #img-1 {
@@ -303,6 +307,21 @@ a {
 }
 
 
+@keyframes Op {
+	from {
+		opacity: 0;
+
+	} to {
+		opacity: 1;
+
+	}
+
+
+}
+
+
+
+
 
 
 
@@ -313,9 +332,12 @@ a {
   }
 
   #title-1 {
-    margin-left: 50px;
-    text-align: Left;
-	margin-left: 680px;
+    	margin-left: 50px;
+    	text-align: Left;
+/*		margin-left: 680px;*/
+		/*	marign-left: 50xppx;
+			font-size: 10px;
+			top: 10px;
   }
 
   #Version {
@@ -349,4 +371,30 @@ a {
   	margin: 0;
   	margin-top: 40px;
   }
+
+  #logo {
+  	width: 30px;
+  	height: 30px;
+  	margin-left: 380px;
+  }
+}
+*/
+
+
+
+#maintenance {
+	font-size: 50px;
+	font-family: Arial;
+	text-align: center;
+	color: orange;
+	margin-top: 450px;
+
+}
+
+body {
+	background-color: red;
+}
+
+@media (max-height: ) {
+
 }

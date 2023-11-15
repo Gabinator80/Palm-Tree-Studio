@@ -3,13 +3,13 @@
 	font-size: 50px;
 	font-family: Arial;
 	text-align: center;
-	color: orange;
+	color: red;
 	margin-top: 450px;
 
 }
 
 body {
-	background-color: red;
+	background-color: orange;
 }
 
 @media (max-height: ) {

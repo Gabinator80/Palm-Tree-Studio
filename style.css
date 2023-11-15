@@ -12,6 +12,9 @@ body {
 	background-color: orange;
 }
 
+* {
+	user-select: none;	
+}
 @media (max-height: ) {
 
 }

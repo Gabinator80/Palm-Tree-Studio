@@ -12,9 +12,15 @@ body {
 	background-color: orange;
 }
 
+#c_2 {
+	color: red;
+}
+
+
 * {
 	user-select: none;	
 }
 @media (max-height: ) {
 
 }
+++

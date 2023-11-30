@@ -14,10 +14,13 @@ body {
 
 #c_2 {
 	color: red;
+	text-align: center;
+	font-family: Arial;
 }
 
 .counter {
 	color: red;
+	text-align: center;
 }
 
 

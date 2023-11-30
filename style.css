@@ -16,6 +16,10 @@ body {
 	color: red;
 }
 
+.counter {
+	color: red;
+}
+
 
 * {
 	user-select: none;	

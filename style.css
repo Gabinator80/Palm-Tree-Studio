@@ -341,12 +341,10 @@ a {
   	margin: 0;
   }
 
+
+
   #title-1 {
-    	margin-left: 50px;
-    	text-align: Left;
-			marign-left: 50xppx;
-			font-size: 10px;
-			top: 10px;
+    	
   }
 
   #Version {
@@ -388,13 +386,11 @@ a {
   }
 }
 
-
-
-@media (max-width: 1917px) {
+@media screen (max-width: 1217px) {
 	#title-1 {
-		text-align: left;
-		font-size: 20px;
-
+		margin-left: 20px;
 	}
+}
 
-	
+
+

@@ -257,11 +257,7 @@ a {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-#h3_1::after {
-	content: 'Bientôt disponible';
-	margin-left: 20px;
-	font-size: 12px;
-}
+
 
 
 

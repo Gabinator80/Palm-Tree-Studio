@@ -321,6 +321,17 @@ a {
 	margin-left: 60px;
 }
 
+#title-6 {
+	margin-left:  350px;
+	font-family: 'Gabarito', cursive;
+	font-size: 20px;
+
+}
+
+
+
+
+
 
 
 
@@ -336,11 +347,15 @@ a {
   	width: 20%;
   	margin: 0;
   }
+  #title-6 {
+  	visibility: hidden;
+  }
 
 
 
   #title-1 {
-    	
+    	margin-left: 0;
+    	margin: 0;
   }
 
   #Version {
@@ -385,6 +400,13 @@ a {
 @media screen (max-width: 1217px) {
 	#title-1 {
 		margin-left: 20px;
+	}
+}
+
+@media (max-width: 584px) {
+	#title-6 {
+		margin-left: 180px;
+		visibility: visible;
 	}
 }
 

@@ -150,9 +150,8 @@
 	transition: 500ms ease-in-out;
 }
 
-.media-3 img:hover {
+#trans_1:hover{
 	scale: 1.1;
-
 }
 
 .p-2 {

@@ -44,7 +44,7 @@
 
 
 #title-1 {
-	margin-left: 1140px;
+	margin-left: 1180px;
 	font-family: 'Gabarito', cursive;
 	animation: SLide-up ease-in-out 500ms;
 	transition: ease-in-out 500ms;
@@ -111,6 +111,9 @@
 
 
 
+
+
+
 .media-2 img {
 	height: 500px;
 	margin-left: 46em;
@@ -153,6 +156,12 @@
 #trans_1:hover{
 	scale: 1.1;
 }
+
+.media-3 img{
+	scale: 1.1;
+}
+
+
 
 .p-2 {
 	white-space: normal;

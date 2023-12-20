@@ -24,6 +24,99 @@
 
 }
 
+.link {
+	position: sticky;
+	display: flex;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: black;
+	margin-top: 20em;
+	margin-left: -10px;
+	color: white;
+	padding: 9px ;
+	height: 300px;
+	margin-bottom: 0;
+	color: white;
+}
+
+.cre {
+	display: grid;
+	margin-left: -900px;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+
+#maj {
+	margin-top: 210px;
+}
+
+#sign {
+	margin-top: 20px;
+}
+
+#sign::after {
+	content: '';
+	width: 30px;
+  	height: 30px;
+	display: block;
+	background: url('src/pp_1.jpg')center center / cover no-repeat;
+	margin-left: -29px;
+	margin-top: -20px;
+
+}
+
+#li_2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.17em;
+}
+
+#li_2:hover {
+	text-decoration: underline;
+}
+
+.link a {
+	color: white;
+	font-family: Arial;
+	font-size: 20;
+}
+
+#li_1 {
+	margin-top: 120px;
+	text-align: center;
+	margin-left: 800px;
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.17em;
+}
+
+#li_1:hover {
+	text-decoration: underline;
+}
+
+#li_2 {
+	margin-left: 820px;
+	margin-top: 25px;
+}
+
+img {
+	border-radius: 20px;
+}
+
+
+
+
+
+a:link {
+	color: white;
+}
+
+li {
+	list-style-type: none;
+	color: white;
+}
+
 
 #img_3 {
 	width: 1020px;
@@ -107,11 +200,33 @@
 }
 
 
+#title_div_1 {
+	
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-size: 20px;
+	font-family: Arial;
+
+}
+
+#com {
+	text-align: center;
+	background-color: grey;
+	border-radius: 20px;
+	border: 10px solid black;
+	font-family: Arial;
+	margin-top: 50px;
+	width: 150px;
+	margin-left: 36em;
+
+}
+
+
 
 #btn_acc_a {
 	color: white;
 	font-family: Arial;
-	text-decoration: underline;
 
 }
 
@@ -124,7 +239,7 @@ a:link {
 
 
 #btn_acc_a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 
@@ -175,17 +290,73 @@ a:link {
 }
 
 
-@media (max-width: 1074px) {
+/*@media (max-width: 1074px) {
 	.main_img {
 		display: grid;
 	}
 	#img_3 {
 		width: 77%;
 	}
-}
+}*/
 
-@media (max-width: 849px) {
+/*@media (max-width: 849px) {
 	#img_2 {
 		width: 77%;
 	}
 }
+
+
+
+
+
+
+
+	
+
+}
+
+
+@media (max-width: 951px) {
+	.link_main li a{
+		margin-left: 0px;
+		color: red;
+	}
+
+}*/
+
+
+
+@media (max-width: 531px) {
+	.main_img img {
+		width: 70%;
+	}
+
+	#img_3 {
+		width: 70%;
+	}
+
+	img {
+		width: 70%;
+	}
+}
+
+
+@media (max-width: 768px) {
+      #li_1,
+      #li_2 {
+        margin-left: 0;
+        text-align: center;
+      }
+
+      #li_2 {
+        margin-top: 15px;
+      }
+    }
+
+
+
+   @media (max-width: 500px){
+    #com {
+    	margin-left: 7em;
+    }
+   }

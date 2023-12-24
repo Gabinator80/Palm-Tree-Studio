@@ -222,7 +222,16 @@ li {
 
 }
 
+#paper_1{
+	width: 500px;
+	height: 500px;
+}
 
+#paper_2 {
+	width: 500px;
+	height: 500px;
+	margin-left: 150px;
+}
 
 #btn_acc_a {
 	color: white;
@@ -359,4 +368,19 @@ a:link {
     #com {
     	margin-left: 7em;
     }
+   }
+
+   @media (max-width: 655px) {
+   	#paper_2 {
+   		margin-left: 0;
+   		width: 450px;
+   	}
+
+   	#paper_1 {
+   		width: 450px;
+   	}
+
+   	.main_img_2 img {
+   		width: 450px;
+   	}
    }

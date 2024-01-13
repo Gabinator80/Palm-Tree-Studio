@@ -102,6 +102,8 @@
 }
 
 
+
+
 #title-1
 
 
@@ -369,6 +371,23 @@ a {
 }
 
 
+#h3_2 {
+	margin-left: 150px;
+	margin-top: -43px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	width: 30px;
+
+}
+
+#h3_2:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
 
 
 
@@ -447,7 +466,9 @@ a {
 	#title-6 {
 		margin-left: 180px;
 		visibility: visible;
+		margin-top: -20px;
 	}
+	
 }
 
 

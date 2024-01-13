@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Climate+Crisis&family=Comfortaa:wght@700&family=Croissant+One&family=Gabarito:wght@900&family=Karla:wght@300&family=Mooli&family=Nunito:ital,wght@1,1000&family=Open+Sans:wght@300&family=Phudu:wght@500&family=Quicksand:wght@700&family=Raleway:wght@600&family=Roboto:ital,wght@1,900&display=swap');
+.nav {
+	background-color: forestgreen;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	left: 0;
+	top: 0;
+	padding: 20px, 100px;
+	align-items: center;
+	background-color: black;
+	color: white;
+	z-index: 2;
+
+}
+
+#a_1 {
+	color: white;
+	font-size: 1.17em;
+
+}
+
+
+
+a {
+	margin-right: 30em;
+	font-family: Arial;
+	font-size: 1.17em;
+
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.nav h1{
+	margin-left: 24em;
+	font-family: 'Gabarito';
+	animation: Slide_left 500ms ease-in-out;
+
+}
+
+
+
+
+.ad {
+	color: black;
+	margin-top: 110px;
+	background-color: grey;
+	border: 15px solid black;
+	text-align: center;
+	font-family: Arial;
+	border-radius: 15px;
+
+}
+
+.header_p {
+	background-color: grey;
+	width: 500px;
+	text-align: center;
+	margin-left: 690px;
+	font-family: Arial;
+	padding: 15px;
+	border-radius: 15px;
+	margin-top: 20px;
+
+}
+
+.header_p h3 {
+	font-weight: bold;
+}
+
+.header_p_2 {
+	background-color: grey;
+	border-radius: 15px;
+	width: 500px;
+	text-align: center;
+	padding: 15px;
+	font-family: Arial;
+	margin-left: 690px;
+	margin-top: 20px;
+}
+
+.header_p_2 h3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+
+@keyframes Slide_left {
+	from {
+		transform: translateX(100px);
+		opacity: 0;
+	} to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+@media (max-width: 1251px) {
+	.nav h1{
+		margin-left: 200px;
+	}
+
+	.header_p {
+		margin-left: 250px;
+	}
+
+	.header_p_2 {
+		margin-left: 250px;
+	}
+}
+
+@media (max-width: 1192px) {
+	.nav h1 {
+		margin-left: 150px;
+	}
+	.header_p {
+		margin-left: 30px;
+		width: 400px;
+	}
+	.header_p_2 {
+		margin-left: 30px;
+		width: 400px;
+	}
+}
+

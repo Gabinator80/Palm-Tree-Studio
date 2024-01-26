@@ -18,15 +18,17 @@
 #a_1 {
 	color: white;
 	font-size: 1.17em;
+	font-weight: bold;
 
 }
 
 
 
 #a_1 {
-	margin-right: 30em;
+	margin-right: 73em;
 	font-family: Arial;
 	font-size: 1.17em;
+	width: 20px;
 
 }
 
@@ -137,6 +139,29 @@ a:hover {
 	font-family: Arial;
 }
 
+.tuto img {
+	width:500px;
+	height: 200px;
+	margin-top: 35px;
+	margin-left: 44em;
+}
+
+.tuto p {
+	width: 500px;
+	text-align: center;
+	margin-left: 44em;
+	margin-top: 35px;
+	background-color: grey;
+	padding: 15px;
+	border-radius: 15px;
+	font-family: Arial;
+}
+
+
+
+
+
+
 
 
 
@@ -162,6 +187,12 @@ a:hover {
 	.header_p_2 {
 		margin-left: 250px;
 	}
+
+	.a_1 {
+
+	}
+
+	
 }
 
 @media (max-width: 1192px) {
@@ -173,6 +204,15 @@ a:hover {
 		width: 400px;
 	}
 	.header_p_2 {
+		margin-left: 30px;
+		width: 400px;
+	}
+	.tuto img {
+		margin-left: 30px;
+		width: 400px;
+	}
+
+	.tuto p {
 		margin-left: 30px;
 		width: 400px;
 	}

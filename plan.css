@@ -74,6 +74,16 @@ img {
 	user-select: none;
 }
 
+.planning h3 {
+	font-family: Arial;
+	background-color: black;
+	color: white;
+	width: 140px;
+	padding: 10px;
+	border-radius: 15px;
+	visibility: hidden;
+}
+
 
 
 @keyframes Op {
@@ -93,6 +103,28 @@ img {
 		opacity: 1;
 	}
 }
+
+@media (max-width: 531px) {
+	.nav h1 {
+		margin-left: 170px;
+	}
+
+	.nav a {
+		margin-left: 150;
+		width: 20px;
+	}
+	img {
+		display: none;
+	}
+
+	.planning h3 {
+		visibility: visible;
+		margin-top: 150px;
+		margin-left: 50px;
+	}
+}
+
+
 
 /*@media (max-width: 1000px) {
 	.nav {

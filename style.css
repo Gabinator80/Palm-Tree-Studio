@@ -413,8 +413,9 @@ a {
 
 @media (max-width: 500px) {
 	.ad {
+		
+		margin-left: 70px;
 		width: 150px;
-		margin-left: -650px;
 	}
 }
 

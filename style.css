@@ -389,6 +389,17 @@ a {
 	
 }
 
+.ad {
+	font-family: Arial;
+	background-color: orange;
+	width: 500px;
+	padding: 10px;
+	margin-right: 260px;
+	margin-top: 95px;
+	border-radius: 15px;
+/*	margin-left: 650px;*/
+}
+
 
 
 #h3_3:hover {
@@ -399,6 +410,13 @@ a {
 	text-decoration: underline;
 }
 
+
+@media (max-width: 500px) {
+	.ad {
+		width: 150px;
+		margin-left: -650px;
+	}
+}
 
 
 

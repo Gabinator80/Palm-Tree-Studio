@@ -408,9 +408,22 @@ a {
 		margin-left: 70px;
 		width: 150px;
 	}
+	.credits li {
+			margin-left: 100px;
+		}
+	}
+
+
+@media (max-width: 400px) {
+	.pages {
+		margin-left: -40px;
+	}
+
+	#title-6 {
+		margin-right: 30px;
+		font-size: 2.9em ;
+	}
 }
-
-
 
 
 
@@ -500,7 +513,7 @@ a {
 
 	} 
 	
-}
+
 
 
 

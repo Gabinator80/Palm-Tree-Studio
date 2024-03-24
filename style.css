@@ -12,7 +12,7 @@
 	top: 0;
 	padding: 20px, 100px;
 	align-items: center;
-	background-color: black;
+	background-color: black ;
 	color: white;
 	z-index: 2;
 	animation: Op 500ms ease-in-out;
@@ -292,6 +292,12 @@ a {
 	text-decoration: underline;
 }
 
+#sign-1 {
+	
+}
+
+
+
 #h3_1 {
 	color: white;
 	margin-top: -44px;
@@ -299,6 +305,38 @@ a {
 }
 
 
+
+#h4_footer {
+	width: 100px;
+	height: 50px;
+	margin-left: 20px;
+}
+
+
+.link_ul {
+	margin-right: 800px;
+}
+
+
+
+#h3_instagram::after {
+	content: "à venir";
+	color: white;
+	margin-left: 15px;
+	font-size: 15px;
+}
+
+.credits p {
+	width: 150px;
+	height: 20px;
+	font-size: 12px;
+}
+
+
+
+#h3_instagram {
+	margin-left: 15px;
+}
 
 
 
@@ -411,6 +449,13 @@ a {
 	.credits li {
 			margin-left: 100px;
 		}
+
+		#Version {
+			visibility: hidden;
+		}
+		#sign-1 {
+			visibility: hidden;
+		}
 	}
 
 
@@ -423,7 +468,33 @@ a {
 		margin-right: 30px;
 		font-size: 2.9em ;
 	}
+
+	#Version {
+		display: none;
+	}
+	#sign-1 {
+		visibility: hidden;
+		display: none;
+	}
+
+	
 }
+
+@media (max-width: 436px) {
+			#sign-1 {
+				visibility: hidden;
+			}
+			#Version {
+			visibility: hidden;
+		}
+
+		#li-1, #li-2 {
+			margin-left: 20px;
+		}
+	}
+
+
+
 
 
 
@@ -495,7 +566,7 @@ a {
   }
 }
 
-@media screen (max-width: 1217px) {
+@media  (max-width: 1217px) {
 	#title-1 {
 		margin-left: 20px;
 	}
